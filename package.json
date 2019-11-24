@@ -17,15 +17,15 @@
   "dependencies": {
     "nan": "^2.14.0",
     "node-gyp": "^6.0.1",
-    "node-gyp-build": "^3.2.2",
+    "node-gyp-build": "^4.2.0",
     "prebuild-install": "^5.3.3",
     "xtend": "^4.0.2"
   },
   "devDependencies": {
-    "concat-stream": "^1.6.0",
+    "concat-stream": "^2.0.0",
     "prebuild": "^9.1.1",
-    "prebuildify": "^2.4.3",
-    "standard": "^8.6.0",
+    "prebuildify": "^3.0.4",
+    "standard": "^14.3.1",
     "tape": "^4.11.0"
   },
   "repository": {
