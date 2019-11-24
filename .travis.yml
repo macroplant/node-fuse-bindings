@@ -1,0 +1,7 @@
+sudo: required
+services:
+  - docker
+
+script:
+  - docker build -t test-node-fuse-bindings .
+  - docker run --rm --device /dev/fuse --privileged test-node-fuse-bindings
