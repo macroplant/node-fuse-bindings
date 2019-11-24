@@ -1,20 +1,17 @@
-FROM debian:latest
+FROM node:12.11.1
 
-RUN apt update -y
-RUN apt upgrade -y
-RUN apt install fuse libfuse-dev pkg-config python python3 curl make build-essential -y
+RUN apt-get update -y \
+ && apt-get install fuse libfuse-dev build-essential -y
 
-RUN curl -sL https://deb.nodesource.com/setup_13.x | bash -
-RUN apt-get install nodejs
 
 COPY ./ ./
 
-RUN npm install -g node-gyp
-RUN npm install
-
+#RUN npm install -g node-gyp
+RUN npm install --unsafe-perm
+RUN npm run tape
 #we also can call a "node-gyp-build" directly
-RUN node-gyp configure && node-gyp build
+#RUN node-gyp configure && node-gyp build
 
-# FUSE also need for options & flags "--rm --device /dev/fuse --privileged"
-# to work properly into a docker container
-CMD ["node", "example"]
+# FUSE also needs flags "--rm --device /dev/fuse --privileged"
+# to work properly 
+CMD ["npm", "run", "tape"]

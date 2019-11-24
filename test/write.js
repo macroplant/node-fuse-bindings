@@ -7,7 +7,7 @@ var path = require('path')
 
 tape('write', function (t) {
   var created = false
-  var data = Buffer.from(1024)
+  var data = Buffer.alloc(1024)
   var size = 0
 
   var ops = {

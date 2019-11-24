@@ -1,4 +1,4 @@
-# fuse-bindings
+# node-fuse-bindings
 
 Fully maintained fuse bindings for Node that aims to cover the entire FUSE api
 
