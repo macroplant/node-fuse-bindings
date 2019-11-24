@@ -37,7 +37,7 @@ DokanLibrary1_LibraryPath_x64="C:\\Program Files\\Dokan\\DokanLibrary-VERSION\\l
 Try creating an empty folder called `mnt` and run the below example
 
 ``` js
-var fuse = require('fuse-bindings')
+var fuse = require('node-fuse-bindings')
 
 var mountPath = process.platform !== 'win32' ? './mnt' : 'M:\\'
 
