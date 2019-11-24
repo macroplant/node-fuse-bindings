@@ -1,6 +1,6 @@
 # node-fuse-bindings
 
-[![Build Status](https://travis-ci.org/direktspeed/node-fuse-bindings.svg?branch=master)](https://travis-ci.org/direktspeed/node-fuse-bindings)
+[![Build Status](https://travis-ci.org/direktspeed/node-fuse-bindings.svg?branch=master)](https://travis-ci.org/direktspeed/node-fuse-bindings) [![Greenkeeper badge](https://badges.greenkeeper.io/direktspeed/node-fuse-bindings.svg)](https://greenkeeper.io/)
 
 Fully maintained fuse bindings for Node that aims to cover the entire FUSE api
 
