@@ -8,8 +8,8 @@ Fully maintained fuse bindings for Node that aims to cover the entire FUSE api
 npm install node-fuse-bindings
 ```
 
-Compared to [fuse-bindings](https://github.com/mafintosh/fuse-bindings) these bindings do work with current node versions >=13 and it includes latest PR's
-Compared to [fuse4js](https://github.com/bcle/fuse4js) these bindings cover almost the entire FUSE api (except for locking) and doesn't do
+- Compared to [fuse-bindings](https://github.com/mafintosh/fuse-bindings) these bindings do work with current node versions >=13 and it includes latest PR's
+- Compared to [fuse4js](https://github.com/bcle/fuse4js) these bindings cover almost the entire FUSE api (except for locking) and doesn't do
 any buffer copys in read/write. It also supports unmount and mouting of multiple fuse drives.
 
 ## Requirements
