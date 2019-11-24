@@ -8,7 +8,7 @@ COPY ./ ./
 
 #RUN npm install -g node-gyp
 RUN npm install --unsafe-perm
-RUN npm run tape
+
 #we also can call a "node-gyp-build" directly
 #RUN node-gyp configure && node-gyp build
 
