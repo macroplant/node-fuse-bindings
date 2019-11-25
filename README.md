@@ -1,6 +1,6 @@
 # node-fuse-bindings
 
-[![Build Status](https://travis-ci.org/direktspeed/node-fuse-bindings.svg?branch=master)](https://travis-ci.org/direktspeed/node-fuse-bindings)
+[![Build Status](https://travis-ci.org/direktspeed/node-fuse-bindings.svg?branch=master)](https://travis-ci.org/direktspeed/node-fuse-bindings) [![Greenkeeper badge](https://badges.greenkeeper.io/direktspeed/node-fuse-bindings.svg)](https://greenkeeper.io/)
 
 libfuse2 bindings for Node >=13 aims to cover the entire FUSE api
 
