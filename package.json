@@ -1,7 +1,7 @@
 {
   "name": "node-fuse-bindings",
-  "version": "2.12.2",
-  "description": "libfuse bindings for Node >=13 aims to cover the entire FUSE api",
+  "version": "2.12.3",
+  "description": "libfuse2 bindings for Node >=13 aims to cover the entire FUSE api",
   "main": "index.js",
   "scripts": {
     "install": "prebuild-install || node-gyp rebuild",

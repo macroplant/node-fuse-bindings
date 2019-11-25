@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/direktspeed/node-fuse-bindings.svg?branch=master)](https://travis-ci.org/direktspeed/node-fuse-bindings)
 
-Fully maintained fuse bindings for Node that aims to cover the entire FUSE api
+libfuse2 bindings for Node >=13 aims to cover the entire FUSE api
 
 ```
 npm install node-fuse-bindings
